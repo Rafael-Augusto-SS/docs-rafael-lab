@@ -1,0 +1,19 @@
+site_name: Documentação Mkdocs
+site_description: Documentação MarkDown da Avaliação Servidor HTTP
+
+theme:
+  name: material
+  language: pt
+  palette:
+    primary: green
+
+nav:
+  - Home: index.md
+  - Instalação MkDocs: pagina1.md
+  - Configuração de Host MkDocs: pagina2.md
+  - Instalação WordPress: pagina3.md
+  - Configuração de Host WordPress: pagina4.md
+
+  
+plugins:
+  - mermaid2
